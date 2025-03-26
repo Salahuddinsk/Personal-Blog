@@ -8,6 +8,22 @@ body {
     text-align: center;
 }
 
+
+.section-heading{
+    color: blue;
+    font-size: 35px;
+    padding: 4rem;
+}
+
+section{
+    width: 100%;
+}
+
+section ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /* Header */
 
 #header-resume{
@@ -121,3 +137,63 @@ Color (missing) → Default color (typically black if not specified).
     width: 30%;
     float: left;
 }
+
+/* #percentage for skills */
+.fifty-percent {
+    height:inherit ;
+    width: 50%;
+}
+
+.eighty-five-percent{
+    height: inherit;
+    width: 85%;
+}
+
+.seventy-six-percent{
+    height: inherit;
+    width: 75%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.violet{
+    background-color: violet;
+}
+
+/* Favorites */
+
+.col-2 {
+    float: left;
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+}
+
+#favorites img{
+    width: 500px;
+    height: 500px;
+    border: 2px dashed darkblue;
+
+    
+}
+
+#favorites span{
+    margin: 20px;
+}
+
+/* Education */
+#education{
+    width: 100%;
+}
+
+#education img{
+    width: 1000px;
+    height: 500px;
+}
+
