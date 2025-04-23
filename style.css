@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     font-size:20px;
     font-family: sans-serif;
@@ -26,43 +26,43 @@ section ::after {
 }
 /* Header */
 
-#header-resume{
+#header-resume {
     opacity: 0.8;
-    background-position:center;
+    background-position: center;
     background-image: url(Images/background.png);
     height: 400px;
     padding: 14px;
 }
 
 
-#header-nav li{
+#header-nav li {
     display: inline-block;
 }
 
-#header-resume #header-nav ul{
+#header-resume #header-nav ul {
     word-spacing: 20px;
 }
 
-#header-nav li a{
+#header-nav li a {
     text-decoration: none;
     color: black;
-    transition: color 0.5s,border-bottom 4s ;
-}   
+    transition: color 0.5s, border-bottom 4s;
+}
 
 
-#header-nav li a:hover{
+#header-nav li a:hover {
     color: lightgray !important;
     font-weight: bold;
     border-radius: 1px solid black;
 }
 
 
-#name-container{
+#name-container {
     margin-top: 150px;
     font-size: 30px;
 }
 
-#my-name{
+#my-name {
     color: black;
 }
 
@@ -74,7 +74,7 @@ section ::after {
     position: relative;
 }
 
-#my-photo img{
+#my-photo img {
     margin-top: -120px;
     border: 4px solid white;
     height: 220px;
@@ -109,7 +109,7 @@ Color (missing) → Default color (typically black if not specified).
 
 }
 
-.skill-progress{
+.skill-progress {
     border-width: 1px;
     background-color: grey;
     width: 176px;
@@ -118,15 +118,15 @@ Color (missing) → Default color (typically black if not specified).
     box-shadow: 1px 1px 2px 1px lightgoldenrodyellow;
     margin: 22px;
     overflow: hidden;
-    
+
 }
 
-.skill-box{
+.skill-box {
     box-shadow: 1px 1px 5px 2px grey;
     border-radius: 20px 0px 0px 20px;
 }
 
-.skill-name span{
+.skill-name span {
     color: white;
     margin-left: 10px;
     text-align: center;
@@ -140,29 +140,29 @@ Color (missing) → Default color (typically black if not specified).
 
 /* #percentage for skills */
 .fifty-percent {
-    height:inherit ;
+    height: inherit;
     width: 50%;
 }
 
-.eighty-five-percent{
+.eighty-five-percent {
     height: inherit;
     width: 85%;
 }
 
-.seventy-six-percent{
+.seventy-six-percent {
     height: inherit;
     width: 75%;
 }
 
-.blue{
+.blue {
     background-color: blue;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.violet{
+.violet {
     background-color: violet;
 }
 
@@ -175,25 +175,63 @@ Color (missing) → Default color (typically black if not specified).
     padding: 10px;
 }
 
-#favorites img{
+#favorites img {
     width: 500px;
     height: 500px;
     border: 2px dashed darkblue;
 
-    
+
 }
 
-#favorites span{
+#favorites span {
     margin: 20px;
 }
 
 /* Education */
-#education{
+#education {
     width: 100%;
 }
 
-#education img{
+#education img {
     width: 1000px;
     height: 500px;
 }
 
+/* Portfolio */
+#portfolio .col-3 {
+    width: 31.7%;
+    margin: 10px;
+}
+
+.portfolio-display{
+    margin-bottom: 36px;
+    padding-top:0 ;
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    position: relative;
+}
+
+.portfolio-img img{
+    width: 390px;
+    height: 312px;
+}
+
+.portfolio-text{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    height: 100%;
+    color: transparent;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    
+}
